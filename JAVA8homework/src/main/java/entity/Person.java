@@ -31,6 +31,16 @@ public class Person {
   }
 
   @Override
+  public String toString() {
+    return "Person{" +
+            "masterNumber='" + masterNumber + '\'' +
+            ", address=" + address +
+            ", telephones=" + telephones +
+            ", emails=" + emails +
+            '}';
+  }
+
+  @Override
   public boolean equals(Object o) {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
@@ -58,3 +68,4 @@ public class Person {
     return telephones;
   }
 }
+
