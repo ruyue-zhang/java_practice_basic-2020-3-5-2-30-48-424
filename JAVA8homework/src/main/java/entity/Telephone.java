@@ -13,6 +13,18 @@ public class Telephone {
     this.telephoneNumber = telephoneNumber;
   }
 
+  public String getMasterNumber() {
+    return masterNumber;
+  }
+
+  public String getCountryCode() {
+    return countryCode;
+  }
+
+  public String getTelephoneNumber() {
+    return telephoneNumber;
+  }
+
   public void setMasterNumber(String masterNumber) {
     this.masterNumber = masterNumber;
   }

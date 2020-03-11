@@ -25,6 +25,14 @@ public class Address {
     return street;
   }
 
+  public String getMasterNumber() {
+    return masterNumber;
+  }
+
+  public String getCountry() {
+    return country;
+  }
+
   public void setMasterNumber(String masterNumber) {
     this.masterNumber = masterNumber;
   }

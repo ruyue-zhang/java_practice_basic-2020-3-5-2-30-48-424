@@ -11,6 +11,14 @@ public class Email {
     this.emailAddress = emailAddress;
   }
 
+  public String getMasterNumber() {
+    return masterNumber;
+  }
+
+  public String getEmailAddress() {
+    return emailAddress;
+  }
+
   public void setMasterNumber(String masterNumber) {
     this.masterNumber = masterNumber;
   }
