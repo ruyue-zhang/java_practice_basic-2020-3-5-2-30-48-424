@@ -26,6 +26,7 @@ public class PersonSet {
   }
 
   public Stream<Person> groupToPeople() {
+
     // TODO: group the data to Stream<Person>
     // Can use Collectors.groupingBy method
     // Can add helper method

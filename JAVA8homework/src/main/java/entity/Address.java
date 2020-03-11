@@ -17,6 +17,14 @@ public class Address {
     this.street = street;
   }
 
+  public String getCity() {
+    return city;
+  }
+
+  public String getStreet() {
+    return street;
+  }
+
   public void setMasterNumber(String masterNumber) {
     this.masterNumber = masterNumber;
   }
